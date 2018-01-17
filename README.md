@@ -2,6 +2,7 @@
 This is the basic php signup and login form with all validations.
 
 Use this query to Create database table :
+
           CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) NOT NULL UNIQUE,
